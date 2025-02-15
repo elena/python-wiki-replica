@@ -1,4 +1,4 @@
-# Replica of Python (official) Wiki
+# Replica of Python Wiki
 
 OriginaL: https://wiki.python.org/
 
@@ -14,8 +14,6 @@ Additionally it seemed like fun to see if it was replicable here, using the defa
 
 **TODO:**
 
-* List of `local-user-group-pages` (as linked per above)
-  * all pages linked from https://wiki.python.org/moin/LocalUserGroups ✨ irrespective of date
 * Determinee most populated root-node pages, adjust and populate django models as necessary
 
     
@@ -38,4 +36,6 @@ Next:
   * arbitrary, I reckon maybe back to around 2016 as ordered by `last edited` date, this is ~400 pages including users, I think will come down to maybe ~250-300
 * List of `user-pages` (easily defined as they will be represented after `last edited by`, with some nuances and likely imperfect)
 * New django model for users (obviously not called users)
+* List of `local-user-group-pages` (as linked per above)
+  * all pages linked from https://wiki.python.org/moin/LocalUserGroups ✨ irrespective of date
 
