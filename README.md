@@ -20,11 +20,16 @@ Additionally it seemed like fun to see if it was replicable here, using the defa
 Next:
 
 * New directory tree and commit here:
-  * `Historical`
-  * `LocalUserGroups`
-  * `User` directory which will contain all user pages irrespective of date
-  * ?? rest of pages, don't want noise, maybe "`pages`" or "`active-pages`" or "`wiki`"? tbd
+  * `users` directory which will contain all user pages irrespective of date
+  * rest of pages, wip
+    * grouping "organising" v "technical/reference" is challenging 
+* Fix white space in md
+* Work on links
+  * links back to original site
+  * internal links are as expected
+  * ?? broken links (can: remove, annotate, ??)
 * Backfill revision history for active pages
+
 
 **Completed:**
 
