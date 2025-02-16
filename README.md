@@ -57,6 +57,8 @@ The final mopping up after the above are resolved is to upload the workings. The
 
 Link management will be perenniel. Further down the track some kind of automation can by applied to assist in managing this.
 
+late update: upon cleaning up urls 437 previously untouched urls turned up which will need to be collected. I suspect that as I've pinged the channel about it that someone else is also working on this wiki replication effort, as it seems as though server has been down more frequently than I remember. It's handing about 2 requests per minute. Having said this, I don't think what ever comes out now will change anything substantially.
+
 ---
 
 2025-02-15:
