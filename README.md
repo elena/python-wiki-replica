@@ -18,6 +18,33 @@ Ideally this version of the python wiki can be accepted at least informally and 
 
 I will be pursuing this follow-up during w/c 2025-02-17
 
+---
+
+2025-02-19:
+
+Still recursing. (busy at work and other volunteering commitments and just being a person with a life)
+
+At this minute there are 309 new links to still check.
+
+The bottleneck is sending request to original site (very slow, often 70-120 seconds). It crashes _pretty_ easily. You can send maybe 5-8 requests and then it'll just 503. It's always done this afaik and it puts forward a good case for doing something about the infra/hosting.
+
+Posted to discord. Engagement is spectacularly low. Changed licence based on feedback from Adam Turner. Soft deadline of having something kind of decently formed by 2025-02-24 as may be knocking heads with some like minds at that time and would be delighted to share the new resource then.
+
+--
+
+_Attempted shortcut -- a bit of a failure: `404`s/`nonexistant`_
+
+`404`s/broken-links generally can only be determined by making a request to original wiki, and then a page is returned doesn't have the status  `404`, but has the speculative text: "This page does not exist yet. You can create a new empty page, or use one of the page templates. Before creating the page, please check if a similar page already exists.", and no authorship. User pages are a great example of this, for example the grey v. blue link names here: https://wiki.python.org/moin/RecentChanges
+
+Wiki is very aggressive at proliferating links. The ratio of real(`200`):speculative(`404`) is right now 3139:3616 which is >53% are not `200`.
+
+Thought it might be "smart"/easy to scan existing pages for instances where links from existing pages had linked to these `404` pages and the class was added called "nonexistent" which would render the link differently for the different (grey v. blue) CSS effect. The wiki would be checking itself internally (swiftly on the same server) to know at render-time if the locally linked page existed or not right? Right?
+
+Quick sampling post-hoc determined this was giving false-positives, so a range of links have been marked as `404` where they are actually real. Not sure what the scope is but my intuition is that it's not huge and realistically I'll just try to re-get the however-many-thousands that have been flagged `404` some time after they've all been at least touched once, and then a correction process to add missing pages if necessary. Sure no worries. I'll have to check for recent updates anyway and I want to add the history entirely for some of the pages anyway so plenty more hitting the remote is in front of me. This is fine
+
+--
+
+Tallying forth. Feeling good. The plan hasn't changed.
 
 ---
 
