@@ -26,7 +26,7 @@ Still recursing. (busy at work and other volunteering commitments and just being
 
 At this minute there are 309 new links to still check.
 
-The bottleneck is sending request to original site (very slow, often 70-120 seconds). It crashes _pretty_ easily. You can send maybe 5-8 requests and then it'll just 503. It's always done this afaik and it puts forward a good case for doing something about the infra/hosting.
+The bottleneck is sending request to original site (very slow, often 70-120 seconds). It crashes _pretty_ easily. You can send maybe 5-8 requests and then it'll just 503. It's always done this afaik and it puts forward a good case for doing something about the problematic infra/hosting.
 
 Posted to discord. Engagement is spectacularly low. Changed licence based on feedback from Adam Turner. Soft deadline of having something kind of decently formed by 2025-02-24 as may be knocking heads with some like minds at that time and would be delighted to share the new resource then.
 
@@ -36,11 +36,11 @@ _Attempted shortcut -- a bit of a failure: `404`s/`nonexistant`_
 
 `404`s/broken-links generally can only be determined by making a request to original wiki, and then a page is returned doesn't have the status  `404`, but has the speculative text: "This page does not exist yet. You can create a new empty page, or use one of the page templates. Before creating the page, please check if a similar page already exists.", and no authorship. User pages are a great example of this, for example the grey v. blue link names here: https://wiki.python.org/moin/RecentChanges
 
-Wiki is very aggressive at proliferating links. The ratio of real(`200`):speculative(`404`) is right now 3139:3616 which is >53% are not `200`.
+Wiki is very aggressive at proliferating links. The ratio of real(`200`):speculative(`404`) is right now 3139:3616 which is >53% are not "real" pages with actual content.
 
 Thought it might be "smart"/easy to scan existing pages for instances where links from existing pages had linked to these `404` pages and the class was added called "nonexistent" which would render the link differently for the different (grey v. blue) CSS effect. The wiki would be checking itself internally (swiftly on the same server) to know at render-time if the locally linked page existed or not right? Right?
 
-Quick sampling post-hoc determined this was giving false-positives, so a range of links have been marked as `404` where they are actually real. Not sure what the scope is but my intuition is that it's not huge and realistically I'll just try to re-get the however-many-thousands that have been flagged `404` some time after they've all been at least touched once, and then a correction process to add missing pages if necessary. Sure no worries. I'll have to check for recent updates anyway and I want to add the history entirely for some of the pages anyway so plenty more hitting the remote is in front of me. This is fine
+Quick sampling post-hoc determined this was giving false-positives, so a range of links have been marked as `404` where they are actually real. Yeah, I guess it makes sense that this is calculated only the last time the page was updated. When I asked for a "data dump" from the docs wiki they told me that such a thing didn't exist and that it's all files which would track with this. Not sure what the scope is but my intuition is that it's not huge as it's only pages that have been created after the linking page was last updated. I can probably do another pass to determine if the page is "existent" any time later. Realistically I'll just try to re-get the however-many-thousands that have been flagged `404` some time after they've all been at least touched once, and then a correction process to add missing pages if necessary. Sure no worries. I'll have to check for recent updates anyway and I want to add the history entirely for some of the pages anyway so plenty more hitting the remote is in front of me. This is fine
 
 --
 
