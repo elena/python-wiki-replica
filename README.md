@@ -20,6 +20,150 @@ I will be pursuing this follow-up during w/c 2025-02-17
 
 ---
 
+2025-02-23:
+
+Checking ever single `404` as discussed below: 3,616 of them. At this minute 2,824/3,616 `404` links are checked so not too far to go. I did start this on th 19th so statistically this won't complete today (it's seriously slow).
+
+
+Here are the last 2x FYI:
+```
+2823 moin/XmlRpcLib 404
+Calling: https://wiki.python.org/moin/QtDbus
+2824 moin/QtDbus 404
+Calling: https://wiki.python.org/moin/DateTimes
+```
+
+Current planned layout for this repo:
+
+```
+`beginner-tutorials`
+
+`events-major`
+
+`lists-links-external`
+`lists-books-topical`
+`lists-books-international`
+
+`psf-internal`
+
+`reference-technical`
+`reference-international`
+
+`regional-local-groups`
+`regional-organisations`
+
+`users`
+
+`.historical-pages`
+
+`.wiki.python.org_mirror/credits.md`
+`.wiki.python.org_mirror/moin/`
+`.wiki.python.org_mirror/scripts/`
+```
+
+There is currently no good "source or truth" for regional organisations. We've done a bunch of work on this recently and I can't think of a better place to add it than here, further I still am itching to update my own personal local group and region.
+
+
+TODO (before pushing the above layout, which more-or-less exists for me locally):
+
+* Revision/checks handling models (this was further down the list but accidently just did it just now, I do love this kind of data management/organising and django it's just too easy and nice)
+* Finish running `404` checks
+* Final recurse links checks
+* Mop up stragglers
+* Finish tidying "mirror" html (this is a bit unwieldly, no one like a directory with just thousands of sub-directories, but this is what we've got)
+
+Stretch/next:
+
+* Decide what to do about broken links (2x distinct problem spaces: internal; external)
+* Add revisions models
+* scripts
+* credits work
+
+
+NB: found new status code: `403` which is no worries. 
+
+Probably will manage links later. I'm keen to get this work to https://github.com/python-organizers/ when it's far enough along. 
+
+
+**Original Wiki Mirror**
+
+There's work continuing to be done on the original -- the plan here initially _was_ just to straight up mirror this, which will be done but just one subdirectory down.
+
+The cadence of updates is easy enough for me to keep up with, I'll tidy up the script for "getting", it's trivial, basically `request` + `open`. This is the traditional nerd solution. The difficult adult solution is to follow through and talk to the people doing the updates, but this is another task for a future day.
+
+**Credits**
+
+A "leaderboard"/"credits" among registered users has emerged quite trivially. I'll do more work before adding it as an actual file, and will improve the scripts surrounding this (though this below is literally copied from django ui with some trivial postprocessing).
+
+Quick list of 3+ pages where this User was the last who edited it. Anon contributions have been filtered out, though the first anon account came in 9th (with 20 pages).
+
+Notes:
+
+* This is still misrepresentation! This is only **last edited**, doesn't reflect full contribution history (that's a different, yet unfinished, piece of work, delayed by `404` shennanigans)
+* `localhost` is all the pages from 2008 and earlier, that are the move to the current platform
+* Possible incorrect but I think `DaleAthanasias` may be `techtonik` if so, they deserves some serious credit here, though the last contribution for both to this community was some time ago 😢
+* Finally several people here are literal friends of mine ✨
+
+```
+963	localhost
+254	DaleAthanasias
+89	PaulBoddie
+72	techtonik
+53	DavidBoddie
+51	CarlTrachte
+46	MarcAndreLemburg
+33	FrancesHocutt
+19	MatsWichmann
+17	AndrewKuchling
+16	TerriOda
+14	NickCoghlan
+11	BaijuMuthukadan
+11	MaximilianFuxjaeger
+11	SkipMontanaro
+11	WolfgangMaier
+9	ChrisM
+9	NoufalIbrahim
+8	NaomiCeder
+8	svaksha
+7	RDavidMurray
+6	DavidGoodger
+6	MartinvonLoewis
+6	SumanaHarihareswara
+5	BarryWarsaw
+5	berkerpeksag
+5	eriky
+5	EtienneRobillard
+5	IwanAucamp
+5	KevinPayravi
+5	ToshioKuratomi
+5	ZakiAkhmad
+4	EWDurbin
+4	nawkboy
+4	StephanDeibel
+4	tarek
+3	AbhishekSingh
+3	albert
+3	aurelien
+3	BenjaminPeterson
+3	DmitryS
+3	dvs1
+3	ErikJohnson
+3	EzioMelotti
+3	GilesThomas
+3	huhuhang
+3	mjpieters
+3	NoamYoravRaphael
+3	PeterFein
+3	ReinoutVanRees
+3	SheaF
+3	UcheOgbuji
+3	VinayDahiya
+3	YarkoTymciurak
+```
+
+
+---
+
 2025-02-19:
 
 Still recursing. (busy at work and other volunteering commitments and just being a person with a life)
@@ -28,7 +172,7 @@ At this minute there are 309 new links to still check.
 
 The bottleneck is sending request to original site (very slow, often 70-120 seconds). It crashes _pretty_ easily. You can send maybe 5-8 requests and then it'll just 503. It's always done this afaik and it puts forward a good case for doing something about the problematic infra/hosting.
 
-Posted to discord. Engagement is spectacularly low. Changed licence based on feedback from Adam Turner. Soft deadline of having something kind of decently formed by 2025-02-24 as may be knocking heads with some like minds at that time and would be delighted to share the new resource then.
+Posted to discord. Engagement is low. Changed licence based on feedback from Adam Turner. Soft deadline of having something kind of decently formed by 2025-02-24 as may be knocking heads with some like minds at that time and would be delighted to share the new resource then.
 
 --
 
