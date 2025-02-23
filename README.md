@@ -75,7 +75,6 @@ TODO (before pushing the above layout, which more-or-less exists for me locally)
 Stretch/next:
 
 * Decide what to do about broken links (2x distinct problem spaces: internal; external)
-* Add revisions models
 * scripts
 * credits work
 
@@ -102,7 +101,7 @@ Notes:
 * This is still misrepresentation! This is only **last edited**, doesn't reflect full contribution history (that's a different, yet unfinished, piece of work, delayed by `404` shennanigans)
 * `localhost` is all the pages from 2008 and earlier, that are the move to the current platform
 * Possible incorrect but I think `DaleAthanasias` may be `techtonik` if so, they deserves some serious credit here, though the last contribution for both to this community was some time ago 😢
-* Finally several people here are literal friends of mine ✨
+* Finally many "usual suspects" in this list, though several people here are literal friends of mine ✨
 
 ```
 963	localhost
