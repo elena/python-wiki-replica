@@ -28,9 +28,9 @@ Really digging in to the mopping up phase and have come across many "automatical
 
 * The holy grail of number page views per page
 * The deeply untrustworthy page of abandoned pages (which contains, among many other the 11th most popular page last update in 2022; and `cpython`)
-* The "I'm not salty about this" page 😢 that is instructions on how to do a full data dump from cli (though a full dump apparently may contain private pages, of where I've found a link for 1 which was financial for a con from the noughts)
+* The "I'm not salty about this" page that is instructions on how to do a full data dump from cli (though a full dump apparently may contain private pages, of where I've found a link for 1 which was financial for a con from the noughts)
 
-Most interesting are the pages that are locked down.
+Most interesting are the pages that are locked down from being edited, I'm just so curious about the rationale 🤔.
 
 These extra signals are helpful, I'm still sticking to my plan.
 
