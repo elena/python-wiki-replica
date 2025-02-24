@@ -20,6 +20,22 @@ I will be pursuing this follow-up during w/c 2025-02-17
 
 ---
 
+2025-02-24:
+
+Well. Well. Well.
+
+Really digging in to the mopping up phase and have come across many "automatically generated" pages that are fascinating.
+
+* The holy grail of number page views per page
+* The deeply untrustworthy page of abandoned pages (which contains, among many other the 11th most popular page last update in 2022; and `cpython`)
+* The "I'm not salty about this" page 😢 that is instructions on how to do a full data dump from cli (though a full dump apparently may contain private pages, of where I've found a link for 1 which was financial for a con from the noughts)
+
+Most interesting are the pages that are locked down.
+
+These extra signals are helpful, I'm still sticking to my plan.
+
+---
+
 2025-02-23:
 
 Checking ever single `404` as discussed below: 3,616 of them. At this minute 2,824/3,616 `404` links are checked so not too far to go. I did start this on th 19th so statistically this won't complete today (it's seriously slow).
