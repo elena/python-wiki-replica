@@ -20,6 +20,44 @@ I will be pursuing this follow-up during w/c 2025-02-17
 
 ---
 
+2025-02-26:
+
+Rollercoaster.
+
+Things have changed. Adam Turner has announced in python-docs discord his export (I was aware that he was interested in the space but not that he had active wip): 
+
+> I’ve published https://github.com/AA-Turner/python-wiki/, an effectively-static mirror of the Python & Jython wiki. The semi-private PSF wiki is excluded for now. No conversion has been done, the text files are simply the raw MoinMoin wiki syntax.
+
+It took me a minute to warm up to it, but I've moved from trepidatious to warm to enthusiastic in short order.
+
+TBH, before this having come across the PageViews page as at this morning I'd be considering going back to the drawing-board somewhat and briefly step back again to a "planning stage". 
+
+With this new announcement I'm necessarily back-back to the drawing-board, in a good way. My work so far is far from completely thrown out though it all does need a significant re-think. I'm so keen to dig in to that new repo and analyse it, it's some genuinely cool work. Yum.
+
+Knee-jerk tasks for now:
+
+* Compare aat-repo files with sections/groups
+* Get in to analysis: content-size
+* Get in to analysis: page-views
+* Consider "Category" prefix  pages
+* Unroll commits and do some analysis/matching
+* Review matched/not/anon contributors
+
+
+New end is per my response to the thread:
+
+> Overall I'd just love to have an active information/details  "source of truth" that the whole community feels empowered to contribute to.
+
+As far as I'm concerned the specifics of how this end is achieved aren't as important as the end itself.
+
+--
+
+I am extremely keen to publish this work. My responsibilities on the Linux Australia steering committee and teaching the ANU Computing students are ramping up this week (in addition to my full-time senior software engineering/architecting day-job), but this work is still a priority so I will keep chipping away.
+
+I have the teaching of Bent Flyvbjerg at the fore of my mind.
+
+---
+
 2025-02-24:
 
 Well. Well. Well.
