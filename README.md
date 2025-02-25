@@ -45,7 +45,7 @@ Knee-jerk tasks for now:
 * Review matched/not/anon contributors
 
 
-New end is per my response to the thread:
+End ultimately hasn't changed for me at all, per my response to the thread:
 
 > Overall I'd just love to have an active information/details  "source of truth" that the whole community feels empowered to contribute to.
 
