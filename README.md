@@ -6,18 +6,19 @@ OriginaL: https://wiki.python.org/
 
 I have tremendous respect for the wiki and everyone who has worked on it. Some names appear again and again over many years, it's clear a great deal of effort and work has been put in to this resource. 
 
-My motive here is that I want to have a community-driven "source of truth" for a bunch of the information in this resource, particularly the user-groups (where my magnificent Australian community has over-represented here) and I want to push this further. It's been on my mind for some time that the existing moin instance does seem to struggle with resiliance and simultaneously this here github seems to be growing as a tool that many people are familiar with, which also supports the "wiki" concept. 
+The motive here for a community-driven "source of truth". 
 
-This project is an attempt to do a swift port to a github repo. It has been about as much work expected and I'm exceptionally grateful for some fantastic tooling from the python ecosystem that has made this both quick and quite fun (nb no llms were used outside of editor-code-completion, which didn't necessarily make things faster). 
+My current interest is in the user-groups/communities (where my magnificent Australian community over-represents), and I want to push this further. 
 
---
+The existing moin instance does seem to struggle with resiliance, while git is now the defacto tooling of opensource. This project is an attempt to do a swift port to a git repo and to rationalise.
 
-NEXT: To reach out to the owners of the moin instance and get their advice. Contact has already been made via discord and mailing list, but this project is well on track to be mature, with the hardest parts of the work done. For disclosure, I'm now feeling quite nervous about this, but yolo and also it'd be a shame to see this effort go to waste.
+Update: the swift port was done by Adam Turner at the end of Feb 2025: https://github.com/AA-Turner/python-wiki
 
-Ideally this version of the python wiki can be accepted at least informally and "real" work can be started to build upon it, there's still tons to do. I for one and now busting to update the details on my main UG.
+My work here is doing some of the hard-slog analysis and leg-work and rationalisation (where I am far from the first!).
 
-I will be pursuing this follow-up during w/c 2025-02-17
+---
 
+Log
 ---
 
 2025-02-26:
@@ -60,7 +61,7 @@ I have the teaching of Bent Flyvbjerg at the fore of my mind.
 
 2025-02-24:
 
-Well. Well. Well.
+Oh my.
 
 Really digging in to the mopping up phase and have come across many "automatically generated" pages that are fascinating.
 
@@ -243,11 +244,15 @@ Quick sampling post-hoc determined this was giving false-positives, so a range o
 
 Tallying forth. Feeling good. The plan hasn't changed.
 
+
 ---
 
 2025-02-16:
 
 First pass is complete. 
+
+It has been about as much work expected and I'm exceptionally grateful for some fantastic tooling from the python ecosystem that has made this both quick and quite fun (nb no llms were used outside of editor-code-completion, which didn't necessarily make things faster). 
+
 
 There are 1,751 "root" pages by default.
 
@@ -302,6 +307,12 @@ Next:
 
 * Work on broken links (can: remove, annotate, ??), maybe pre-commit hook
 * Backfill revision history for active pages
+* To reach out to the owners of the moin instance and get their advice. Contact has already been made via discord and mailing list, but this project is well on track to be mature, with the hardest parts of the work done. For disclosure, I'm now feeling quite nervous about this, but yolo and also it'd be a shame to see this effort go to waste.
+
+Ideally this version of the python wiki can be accepted at least informally and "real" work can be started to build upon it, there's still tons to do. I for one and now busting to update the details on my main UG.
+
+I will be pursuing this follow-up during w/c 2025-02-17
+
 
 ---
 
