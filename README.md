@@ -55,7 +55,7 @@ As far as I'm concerned the specifics of how this end is achieved aren't as impo
 
 I am extremely keen to publish this work. My responsibilities on the Linux Australia steering committee and teaching the ANU Computing students are ramping up this week (in addition to my full-time senior software engineering/architecting day-job), but this work is still a priority so I will keep chipping away.
 
-I have the teaching of Bent Flyvbjerg at the fore of my mind.
+I have the teaching of Bent Flyvbjerg at the fore of my mind (and also I'm currently reading [Working in Public](https://press.stripe.com/working-in-public) by Nadia Eghbal, so suffice to say this is fresh in my mind too).
 
 ---
 
