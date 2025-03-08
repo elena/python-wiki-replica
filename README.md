@@ -21,6 +21,18 @@ My work here is doing some of the hard-slog analysis and leg-work and rationalis
 Log
 ---
 
+2025-03-09:
+
+Sadly I lost a post from 2025-03-03 where there was much activity, particularly with Keith from PSF EOW; MAL, Ee and Marie from PSF. So much has happened for me personally since this is now forever gone. 
+
+This has been an intense week for me where I have been doing much in the world: not-leastly self-referentially tending my several user-groups and starting the new semester with my Computing students, as well as doing real work for my employer. I've let down this project and my beloved Linux Australia this week, and am pretty drained.
+
+Self-referentially as part of my motive here is for the real-life user groups and their value in these times. This was very much reinforced this week. 
+
+I'm winding the flywheel back up now. TBC.
+
+---
+
 2025-02-26:
 
 Rollercoaster.
